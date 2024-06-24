@@ -1,4 +1,7 @@
 # Define the base paths
+# run dotnet add package Microsoft.CodeAnalysis.LanguageServer.win-x64 --prerelease
+# it will error but the package will be downloaded to ~/.nuget/packages/microsoft.codeanalysis.languageserver.win-x64
+
 $nugetPath = "$env:USERPROFILE\.nuget\packages\microsoft.codeanalysis.languageserver.win-x64"
 $nvimRoslynPath = "$env:USERPROFILE\AppData\Local\nvim-data\roslyn"
 
